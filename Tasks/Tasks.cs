@@ -12,7 +12,7 @@ namespace Tasks
 {
     public static class Tasks
     {
-        [FunctionName("Function1")]
+        [FunctionName("Tasks")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
